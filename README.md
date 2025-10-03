@@ -80,6 +80,7 @@ Utilize threat intelligence feeds or reputation databases to identify malicious 
 Example search for known malicious domains:
 
 ![Fortigate.png](https://github.com/victormbogu1/Analyzing-DNS-Log-Files-Using-Splunk-SIEM/blob/43723bee124fed20c3439a7916cebd9e496beb19/spluggg/Screenshot%202025-10-02%20193946.png)
+![Fortigate.png](https://github.com/victormbogu1/Analyzing-DNS-Log-Files-Using-Splunk-SIEM/blob/2483ba8bb456dcfdb888354b59cd204e1b34a945/spluggg/Screenshot%202025-10-02%20194214.png)
 
 Conclusion
 Analyzing DNS log files using Splunk SIEM enables security professionals to detect and respond to potential security incidents effectively. By understanding DNS activity and identifying anomalies, organizations can enhance their overall security posture and protect against various cyber threats.
