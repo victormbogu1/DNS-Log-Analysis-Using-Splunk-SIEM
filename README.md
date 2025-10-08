@@ -25,16 +25,10 @@ The project uses sample DNS logs in text format (`dns.log`) that contain the fol
 ## 📌 What a typical DNS event should include:
 
 - Source IP → client sending the request (e.g., 10.0.0.5)
-
 - Destination IP → DNS server receiving the query (e.g., 10.0.0.53)
-
 - Domain (FQDN) → domain name requested (e.g., example.com)
-
 - Query Type → record type (A = IPv4, AAAA = IPv6, TXT, ANY, etc.)
-
 - Response Code → result of the query (NOERROR, NXDOMAIN, SERVFAIL, etc.)
-
-
 
 ---
 
@@ -64,7 +58,7 @@ Search for DNS Events
 
 ## Extract Relevant Fields
 - Identify key fields in DNS logs, including source IP, destination IP, domain name, query type, response code, and other relevant attributes to effectively analyze DNS activity.
-- 
+
 ### 🧾 DNS Log Field Breakdown  
 
 | **Value**             | **Field Name**        | **Meaning (Simple Explanation)** |
@@ -125,11 +119,8 @@ By Ssearching for Malicious Domains:
 Analyzing DNS logs with Splunk SIEM provides valuable visibility into network traffic and helps detect potential threats early:
 
 - Understanding normal DNS activity
-
 - Identifying anomalies and suspicious domains
-
 - Leveraging threat intelligence
-
 - organizations can strengthen their security posture and defend against malware, data exfiltration, and DNS-based attacks.
 
 
